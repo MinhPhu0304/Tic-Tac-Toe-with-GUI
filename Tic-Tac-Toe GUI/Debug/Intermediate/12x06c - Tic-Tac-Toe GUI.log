@@ -1,7 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(372,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
-C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
-  Source.c
-c:\users\xqs9264\downloads\week 12\12x06c - tic-tac-toe gui\src\source.c(534): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
-c:\users\xqs9264\downloads\week 12\12x06c - tic-tac-toe gui\src\source.c(546): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
-  12x06c - Tic-Tac-Toe GUI.vcxproj -> C:\Users\xqs9264\Downloads\Week 12\12x06c - Tic-Tac-Toe GUI\Debug\12x06c - Tic-Tac-Toe GUI.exe
-  12x06c - Tic-Tac-Toe GUI.vcxproj -> C:\Users\xqs9264\Downloads\Week 12\12x06c - Tic-Tac-Toe GUI\Debug\12x06c - Tic-Tac-Toe GUI.pdb (Partial PDB)
