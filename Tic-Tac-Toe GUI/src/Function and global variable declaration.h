@@ -1,11 +1,17 @@
 #pragma once
 #include <Windows.h>
 #ifndef _checking_who_win
+
 #define _checking_who_win
 #define NUMBER_SQUARE 9
 #define NUMBER_PATTERN_CHECK 10
 #define MAX_JUMP 5
 
+//***********************************************************
+//*															*
+//* This declare a flag indicates each individual button	*
+//*			The button flags start from top left			*
+//***********************************************************
 enum button
 {
 	button_1 = 1000,
@@ -25,6 +31,8 @@ typedef enum _Boolean
 	true
 } Bool;
 
+
+//All HWND is set to null now so it can be assigned later to keep track of everything
 HWND stat_text = 0;
 HWND hwnd_app = 0;
 HWND hwnd_button_1 = 0;
@@ -37,8 +45,9 @@ HWND hwnd_button_7 = 0;
 HWND hwnd_button_8 = 0;
 HWND hwnd_button_9 = 0;
 
+//1 dimensional array to hold the character according to the square
 char tic_tac_toe[9]; 
-int player_number = 'x';
+int player_number = 'x';						//
 int turn = 0;
 
 void check_pattern(void);
@@ -48,6 +57,9 @@ void check_horizontal_pattern(char* result);
 void check_vertical_pattern(char* result);
 void check_diagonal_left(char* result);
 void check_diagonal_right(char* result);
+void handle_button_click(HWND thisButtonClicked);
+void prompt_replay();
+void reset_game_state();
 
 #endif // !_checking_who_win
  

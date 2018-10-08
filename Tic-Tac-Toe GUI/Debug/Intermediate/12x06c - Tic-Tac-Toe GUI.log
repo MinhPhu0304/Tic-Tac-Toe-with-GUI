@@ -1,0 +1,35 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(372,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Source.c
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(70): warning C4047: 'function': 'HWND' differs in levels of indirection from 'HWND *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(70): warning C4024: 'handle_button_click': different types for formal and actual parameter 1
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(70): warning C4020: 'handle_button_click': too many actual parameters
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(74): warning C4047: 'function': 'HWND' differs in levels of indirection from 'HWND *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(74): warning C4024: 'handle_button_click': different types for formal and actual parameter 1
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(74): warning C4020: 'handle_button_click': too many actual parameters
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(78): warning C4047: 'function': 'HWND' differs in levels of indirection from 'HWND *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(78): warning C4024: 'handle_button_click': different types for formal and actual parameter 1
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(78): warning C4020: 'handle_button_click': too many actual parameters
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(82): warning C4047: 'function': 'HWND' differs in levels of indirection from 'HWND *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(82): warning C4024: 'handle_button_click': different types for formal and actual parameter 1
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(82): warning C4020: 'handle_button_click': too many actual parameters
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(86): warning C4047: 'function': 'HWND' differs in levels of indirection from 'HWND *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(86): warning C4024: 'handle_button_click': different types for formal and actual parameter 1
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(86): warning C4020: 'handle_button_click': too many actual parameters
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(90): warning C4047: 'function': 'HWND' differs in levels of indirection from 'HWND *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(90): warning C4024: 'handle_button_click': different types for formal and actual parameter 1
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(90): warning C4020: 'handle_button_click': too many actual parameters
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(94): warning C4047: 'function': 'HWND' differs in levels of indirection from 'HWND *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(94): warning C4024: 'handle_button_click': different types for formal and actual parameter 1
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(94): warning C4020: 'handle_button_click': too many actual parameters
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(98): warning C4047: 'function': 'HWND' differs in levels of indirection from 'HWND *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(98): warning C4024: 'handle_button_click': different types for formal and actual parameter 1
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(98): warning C4020: 'handle_button_click': too many actual parameters
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(102): warning C4047: 'function': 'HWND' differs in levels of indirection from 'HWND *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(102): warning C4024: 'handle_button_click': different types for formal and actual parameter 1
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(102): warning C4020: 'handle_button_click': too many actual parameters
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(255): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(267): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(292): warning C4028: formal parameter 1 different from declaration
+c:\users\minh's\documents\github\tic-tac-toe-with-gui\tic-tac-toe gui\src\source.c(292): warning C4029: declared formal parameter list different from definition
+  12x06c - Tic-Tac-Toe GUI.vcxproj -> C:\Users\Minh's\Documents\GitHub\Tic-Tac-Toe-with-GUI\Tic-Tac-Toe GUI\src\../Debug\12x06c - Tic-Tac-Toe GUI.exe

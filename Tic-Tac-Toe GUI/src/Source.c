@@ -67,326 +67,41 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		{
 			if (LOWORD(wParam) == button_1)
 			{
-				if (GetWindowTextLength(hwnd_button_1) == 0)
-				{
-
-					if (player_number == 'x')
-					{
-						SetWindowText(hwnd_button_1, L"X");
-
-						tic_tac_toe[0] = 'x';
-
-						SetWindowText(stat_text, L"Player O's turn:");
-
-						++turn;
-
-						player_number = 'o';
-					}
-					else
-					{
-						SetWindowText(hwnd_button_1, L"O");
-
-						SetWindowText(stat_text, L"Player X's turn:");
-
-						tic_tac_toe[0] = 'o';
-
-						++turn;
-
-						player_number = 'x';
-
-					}
-				}
-				else
-				{
-					MessageBox(NULL, L"This position has been choosen", L"Error", MB_OK);
-				}
+				handle_button_click(&hwnd_button_1,0);
 			}
 			else if (LOWORD(wParam) == button_2)
 			{
-				if (GetWindowTextLength(hwnd_button_2) == 0)
-				{
-					if (player_number == 'x')
-					{
-						SetWindowText(hwnd_button_2, L"X");
-
-						SetWindowText(stat_text, L"Player O's turn:");
-
-						tic_tac_toe[1] = 'x';
-
-						++turn;
-
-						player_number = 'o';
-					}
-					else
-					{
-						SetWindowText(hwnd_button_2, L"O");
-
-						SetWindowText(stat_text, L"Player X's turn:");
-
-						tic_tac_toe[1] = 'o';
-
-						++turn;
-
-						player_number = 'x';
-
-					}
-				}
-				else
-				{
-					MessageBox(NULL, L"This position has been choosen", L"Error", MB_OK);
-				}
+				handle_button_click(&hwnd_button_2,1);
 			}
 			else if (LOWORD(wParam) == button_3)
 			{
-				if (GetWindowTextLength(hwnd_button_3) == 0)
-				{
-
-					if (player_number == 'x')
-					{
-						SetWindowText(hwnd_button_3, L"X");
-
-						SetWindowText(stat_text, L"Player O's turn:");
-
-						tic_tac_toe[2] = 'x';
-
-						++turn;
-
-						player_number = 'o';
-					}
-					else
-					{
-						SetWindowText(hwnd_button_3, L"O");
-
-						SetWindowText(stat_text, L"Player X's turn:");
-
-						tic_tac_toe[2] = 'o';
-
-						++turn;
-
-						player_number = 'x';
-					}
-				}
-				else
-				{
-					MessageBox(NULL, L"This position has been choosen", L"Error", MB_OK);
-				}
+				handle_button_click(&hwnd_button_3,2);
 			}
 			else if (LOWORD(wParam) == button_4)
 			{
-				if (GetWindowTextLength(hwnd_button_4) == 0)
-				{
-
-					if (player_number == 'x')
-					{
-						SetWindowText(hwnd_button_4, L"X");
-
-						SetWindowText(stat_text, L"Player O's turn:");
-
-						tic_tac_toe[3] = 'x';
-
-						++turn;
-
-						player_number = 'o';
-					}
-					else
-					{
-						SetWindowText(hwnd_button_4, L"O");
-
-						SetWindowText(stat_text, L"Player X's turn:");
-
-						tic_tac_toe[3] = 'o';
-
-						++turn;
-
-						player_number = 'x';
-					}
-				}
-				else
-				{
-					MessageBox(NULL, L"This position has been choosen", L"Error", MB_OK);
-				}
+				handle_button_click(&hwnd_button_4, 3);
 			}
 			else if (LOWORD(wParam) == button_5)
 			{
-				if (GetWindowTextLength(hwnd_button_5) == 0)
-				{
-
-					if (player_number == 'x')
-					{
-						SetWindowText(hwnd_button_5, L"X");
-
-						SetWindowText(stat_text, L"Player O's turn:");
-
-						tic_tac_toe[4] = 'x';
-
-						++turn;
-
-						player_number = 'o';
-					}
-					else
-					{
-						SetWindowText(hwnd_button_5, L"O");
-
-						SetWindowText(stat_text, L"Player X's turn:");
-
-						tic_tac_toe[4] = 'o';
-
-						++turn;
-
-						player_number = 'x';
-					}
-				}
-				else
-				{
-					MessageBox(NULL, L"This position has been choosen", L"Error", MB_OK);
-
-				}
+				handle_button_click(&hwnd_button_5, 4);
 			}
 			else if (LOWORD(wParam) == button_6)
 			{
-				if (GetWindowTextLength(hwnd_button_6) == 0)
-				{
-
-					if (player_number == 'x')
-					{
-						SetWindowText(hwnd_button_6, L"X");
-
-						SetWindowText(stat_text, L"Player O's turn:");
-
-						tic_tac_toe[5] = 'x';
-
-						++turn;
-
-						player_number = 'o';
-					}
-					else
-					{
-						SetWindowText(hwnd_button_6, L"O");
-
-						SetWindowText(stat_text, L"Player X's turn:");
-
-						tic_tac_toe[5] = 'o';
-
-						++turn;
-
-						player_number = 'x';
-					}
-				}
-				else
-				{
-					MessageBox(NULL, L"This position has been choosen", L"Error", MB_OK);
-				}
+				handle_button_click(&hwnd_button_6, 5);
 			}
 			else if (LOWORD(wParam) == button_7)
 			{
-				if (GetWindowTextLength(hwnd_button_7) == 0)
-				{
-
-					if (player_number == 'x')
-					{
-						SetWindowText(hwnd_button_7, L"X");
-
-						SetWindowText(stat_text, L"Player O's turn:");
-
-						tic_tac_toe[6] = 'x';
-
-						++turn;
-
-						player_number = 'o';
-					}
-					else
-					{
-						SetWindowText(hwnd_button_7, L"O");
-
-						SetWindowText(stat_text, L"Player X's turn:");
-
-						tic_tac_toe[6] = 'o';
-
-						++turn;
-
-						player_number = 'x';
-					}
-				}
-				else
-				{
-					MessageBox(NULL, L"This position has been choosen", L"Error", MB_OK);
-				}
+				handle_button_click(&hwnd_button_7, 6);
 			}
 			else if (LOWORD(wParam) == button_8)
 			{
-				if (GetWindowTextLength(hwnd_button_8) == 0)
-				{
-
-					if (player_number == 'x')
-					{
-						SetWindowText(hwnd_button_8, L"X");
-
-						SetWindowText(stat_text, L"Player O's turn:");
-
-						tic_tac_toe[7] = 'x';
-
-						++turn;
-
-						player_number = 'o';
-					}
-					else
-					{
-						SetWindowText(hwnd_button_8, L"O");
-
-						SetWindowText(stat_text, L"Player X's turn:");
-
-						tic_tac_toe[7] = 'o';
-
-						++turn;
-
-						player_number = 'x';
-					}
-				}
-				else
-				{
-					MessageBox(NULL, L"This position has been choosen", L"Error", MB_OK);
-				}
+				handle_button_click(&hwnd_button_8, 7);
 			}
 			else if (LOWORD(wParam) == button_9)
 			{
-				if (GetWindowTextLength(hwnd_button_9) == 0)
-				{
-
-					if (player_number == 'x')
-					{
-						SetWindowText(hwnd_button_9, L"X");
-
-						SetWindowText(stat_text, L"Player O's turn:");
-
-						tic_tac_toe[8] = 'x';
-
-						++turn;
-
-						player_number = 'o';
-					}
-					else
-					{
-						SetWindowText(hwnd_button_9, L"O");
-
-						SetWindowText(stat_text, L"Player X's turn:");
-
-						tic_tac_toe[8] = 'o';
-
-						++turn;
-
-						player_number = 'x';
-					}
-				}
-				else
-				{
-					MessageBox(NULL, L"This position has been choosen", L"Error", MB_OK);
-				}
+				handle_button_click(&hwnd_button_9, 8);
 			}
 			check_pattern();
-		}
-		else
-		{
-			MessageBox(NULL, L"It's a draw match", L"Result", MB_OK);
 		}
 	}break;
 
@@ -476,9 +191,14 @@ void check_pattern(void)
 	if (win_pattern)
 	{
 		pop_up_player_win(win_pattern);
+		prompt_replay();
+	}
+	else if (turn == 9) {
+		MessageBox(NULL, L"It's a draw match", L"Result", MB_OK);
 	}
 }
 
+//This function is called to check each and individual 
 void checking_individual(int start_pos, int no_jump, char* result)
 {
 	char comparing_char = tic_tac_toe[start_pos];
@@ -499,6 +219,7 @@ void checking_individual(int start_pos, int no_jump, char* result)
 	}
 }
 
+//This function will return if the pointer passed in is not null - meaning the there is a winner
 void check_horizontal_pattern(char* result)
 {
 	if ((*result) != 0)
@@ -565,5 +286,77 @@ void pop_up_player_win(char player_win)
 
 	MessageBox(NULL, print_out_buffer, L"Result", MB_OK);
 
-	DestroyWindow(hwnd_app);
+	//DestroyWindow(hwnd_app);
+}
+
+void handle_button_click(HWND* thisButtonClicked,int charPosition) {
+
+	if (GetWindowTextLength((*thisButtonClicked)) == 0)
+	{
+
+		if (player_number == 'x')
+		{
+			SetWindowText((*thisButtonClicked), L"X");
+
+			tic_tac_toe[charPosition] = 'x';
+
+			SetWindowText(stat_text, L"Player O's turn:");
+
+			++turn;
+
+			player_number = 'o';
+		}
+		else
+		{
+			SetWindowText((*thisButtonClicked), L"O");
+
+			SetWindowText(stat_text, L"Player X's turn:");
+
+			tic_tac_toe[charPosition] = 'o';
+
+			++turn;
+
+			player_number = 'x';
+
+		}
+	}
+	else
+	{
+		MessageBox(NULL, L"This position has been choosen", L"Error", MB_OK);
+	}
+}
+
+void prompt_replay() {
+	int user_response = MessageBox(
+		NULL,
+		(LPCWSTR)L"Do you want to play again?",
+		(LPCWSTR)L"Replay",
+		MB_YESNO
+	);
+
+	switch (user_response) {
+		case IDYES:
+			reset_game_state();
+			break;
+		case IDNO:
+			break;
+		default:
+			break;
+	}
+}
+
+void reset_game_state() {
+	ZeroMemory(tic_tac_toe, NUMBER_SQUARE);
+	turn = 0;
+	player_number = 'x';
+
+	SetWindowText(hwnd_button_1, L"");
+	SetWindowText(hwnd_button_2, L"");
+	SetWindowText(hwnd_button_3, L"");
+	SetWindowText(hwnd_button_4, L"");
+	SetWindowText(hwnd_button_5, L"");
+	SetWindowText(hwnd_button_6, L"");
+	SetWindowText(hwnd_button_7, L"");
+	SetWindowText(hwnd_button_8, L"");
+	SetWindowText(hwnd_button_9, L"");
 }
